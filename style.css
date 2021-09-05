@@ -1,0 +1,88 @@
+:root {
+  font-size: 10px;
+}
+.hide {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.car,
+.enemy {
+  height: 100px;
+  width: 50px;
+  background: transparent url("./redCar.png") center / cover no-repeat;
+  position: absolute;
+}
+
+.gameArea {
+  width: 30rem;
+  height: 100vh;
+  position: relative;
+  margin: auto;
+  background: #222;
+}
+
+.line {
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  background: #fff;
+  left: 145px;
+}
+
+.start {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 0;
+  text-align: center;
+  z-index: 200;
+  color: tomato;
+  background:black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.score {
+    position:absolute ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(75, 62, 62);
+    padding: 2rem 0;
+    z-index: 200;
+    font-size: 1.5rem;
+    color: aquamarine;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.speedMenu, .trafficMenu {
+  position: absolute;
+  top: 15rem;
+  width: 30%;
+  left: 0;
+  font-size: 1.8rem;
+  font-family: fantasy;
+  text-align: center;
+  border-style: solid;
+  z-index:  10; ;
+
+}
+
+#selectSpeed, #selectTraffic {
+  font-family:fantasy;
+  font-size: 1.5rem;
+}
+
+.trafficMenu {
+  left: 70%;
+
+}
+
